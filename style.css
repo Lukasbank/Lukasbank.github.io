@@ -1,9 +1,18 @@
+* {
+    text-align: center;
+    font-size: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
 .menuBar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: grey;
+    background-color: 	#ffcce6;
 }
 
 li {
@@ -14,12 +23,25 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #ff99ce;
+}
+
+h1 {
+    padding-top: 50px;
+}
+
+body {
+    background-image: url(/img/pexels-eberhard-grossgasteiger-2088170.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
 }
